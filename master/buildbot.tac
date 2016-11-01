@@ -3,7 +3,7 @@ import os
 from twisted.application import service
 from buildbot.master import BuildMaster
 
-basedir = '/home/mark/repos/buildbot-lets-explore/bb-master/master'
+basedir = '/home/mark/repos/buildbot-lets-explore/master'
 rotateLength = 10000000
 maxRotatedFiles = 10
 configfile = 'master.cfg'
