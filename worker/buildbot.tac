@@ -1,3 +1,5 @@
+# -*- python -*-
+
 import os
 
 from buildbot_worker.bot import Worker
