@@ -3,3 +3,6 @@
 *.hostname
 *.pid
 *.sqlite
+worker/build
+worker/test
+master/gitpoller
