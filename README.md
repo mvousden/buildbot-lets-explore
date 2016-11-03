@@ -9,6 +9,7 @@ Things to look at:
  - Saturate the number of workers with the number of branches.
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
+ - Skip builds that contain "[ci-skip]" in the commit message.
 
 Things we can do:
 
