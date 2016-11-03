@@ -5,7 +5,6 @@ Things to look at:
  - Concurrent builds (with multiple workers).
  - Trigger a build (from the force builder) using a script or from the command
    line.
- - Automated testing of any new branches (in parallel).
  - Saturate the number of workers with the number of branches.
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
@@ -19,3 +18,4 @@ Things we can do:
  - Testing the polling mechanism automatically tests and builds.
  - Connecting the test and build job, so that the build job is triggered by a
    successful test.
+ - Automated testing of any new branches.
