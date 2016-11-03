@@ -9,6 +9,8 @@ Things to look at:
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
  - Skip builds that contain "[ci-skip]" in the commit message.
+ - Distinguish build status of development and master at a glance (feature
+   branches are not so important).
 
 Things we can do:
 
@@ -18,4 +20,5 @@ Things we can do:
  - Testing the polling mechanism automatically tests and builds.
  - Connecting the test and build job, so that the build job is triggered by a
    successful test.
- - Automated testing of any new branches.
+ - Automated testing of any new branches. Merge commits are not counted
+   separately, unfortunatly.
