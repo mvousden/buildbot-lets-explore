@@ -3,7 +3,7 @@ BUILDBOT_EXEC_PREFIX="$HOME/miniconda2/bin"
 
 # Create workers.
 $BUILDBOT_EXEC_PREFIX/buildbot-worker create-worker worker_1 localhost:9990 worker_1 pass_1
-$BUILDBOT_EXEC_PREFIX/buildbot-worker create-worker worker_2 localhost:9991 worker_2 pass_2
+$BUILDBOT_EXEC_PREFIX/buildbot-worker create-worker worker_2 localhost:9990 worker_2 pass_2
 
 # Start the master and the workers.
 $BUILDBOT_EXEC_PREFIX/buildbot start master/
