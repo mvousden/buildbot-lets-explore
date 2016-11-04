@@ -22,5 +22,4 @@ Things we can do:
  - Saturate the number of workers with the number of branches.
  - Distinguish build status of development and master at a glance (feature
    branches are not so important).
- - Trigger builds off a merge (only works if the commits are merged after being
-   polled).
+ - Trigger builds off a merge.
