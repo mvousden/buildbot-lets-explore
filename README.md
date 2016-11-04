@@ -7,8 +7,6 @@ Things to look at:
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
  - Skip builds that contain "[ci-skip]" in the commit message.
- - Distinguish build status of development and master at a glance (feature
-   branches are not so important).
 
 Things we can do:
 
@@ -22,3 +20,5 @@ Things we can do:
    separately, unfortunatly.
  - Concurrent builds (with multiple workers).
  - Saturate the number of workers with the number of branches.
+ - Distinguish build status of development and master at a glance (feature
+   branches are not so important).
