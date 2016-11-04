@@ -1,4 +1,4 @@
-from complicated_library import addition
+from complicated_library import addition, subtraction
 
 def test_addition():
     """
@@ -8,7 +8,17 @@ def test_addition():
     assert addition(-3, 4) == 1
 
 
+def test_subtraction():
+    """
+    Tests the subtraction function.
+    """
+
+    assert subtraction(-3, 4) == -7
+
+
 if __name__ == "__main__":
     print("Testing addition...")
     test_addition()
+    print("Testing subtraction...")
+    test_subtraction()
     print("Test passed!")
