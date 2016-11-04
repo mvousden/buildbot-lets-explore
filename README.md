@@ -2,10 +2,8 @@ A quick foray into Buildbot, starting from the tutorial.
 
 Things to look at:
 
- - Concurrent builds (with multiple workers).
  - Trigger a build (from the force builder) using a script or from the command
    line.
- - Saturate the number of workers with the number of branches.
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
  - Skip builds that contain "[ci-skip]" in the commit message.
@@ -22,3 +20,5 @@ Things we can do:
    successful test.
  - Automated testing of any new branches. Merge commits are not counted
    separately, unfortunatly.
+ - Concurrent builds (with multiple workers).
+ - Saturate the number of workers with the number of branches.
