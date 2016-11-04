@@ -7,6 +7,7 @@ Things to look at:
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
  - Skip builds that contain "[ci-skip]" in the commit message.
+ - Trigger builds off a merge.
 
 Things we can do:
 
