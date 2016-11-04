@@ -6,7 +6,6 @@ Things to look at:
    line.
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
- - Skip builds that contain "[ci-skip]" in the commit message.
 
 Things we can do:
 
@@ -23,3 +22,6 @@ Things we can do:
  - Distinguish build status of development and master at a glance (feature
    branches are not so important).
  - Trigger builds off a merge.
+ - Skip builds that contain "[ci-skip]" in the commit message. If multiple
+   commits are received at once, the latest change without the "[ci-skip]" tag
+   is built.
