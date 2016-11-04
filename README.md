@@ -7,7 +7,6 @@ Things to look at:
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
  - Skip builds that contain "[ci-skip]" in the commit message.
- - Trigger builds off a merge.
 
 Things we can do:
 
@@ -23,3 +22,5 @@ Things we can do:
  - Saturate the number of workers with the number of branches.
  - Distinguish build status of development and master at a glance (feature
    branches are not so important).
+ - Trigger builds off a merge (only works if the commits are merged after being
+   polled).
