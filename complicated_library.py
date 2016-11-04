@@ -1,3 +1,5 @@
+# It's pretty simple.
+
 def addition(quantityOne, quantityTwo):
     """
     Trivially adds two quantities together using the '+' operator.
