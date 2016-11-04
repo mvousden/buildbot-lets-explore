@@ -4,3 +4,12 @@ def addition(quantityOne, quantityTwo):
     """
 
     return quantityOne + quantityTwo
+
+
+def subtraction(quantityOne, quantityTwo):
+    """
+    Trivially subtracts the first quantity from the second using the '-'
+    operator.
+    """
+
+    return quantityOne - quantityTwo
