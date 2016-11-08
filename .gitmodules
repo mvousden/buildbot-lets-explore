@@ -1,0 +1,3 @@
+[submodule "buildbot-status-slack"]
+	path = buildbot-status-slack
+	url = git@github.com:mindmatters/buildbot-status-slack.git
