@@ -4,6 +4,12 @@ This repository requires a submodule to function. Clone this repository using
 the `--recursive` flag to pull submodules as well (see
 https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
+To get started:
+
+ - install the python packages listed in `requirements.txt`
+ - command `./start.sh` (sorry Windows users)
+ - connect to localhost:8010
+
 Things to look at:
 
  - Trigger a build (from the force builder) using a script or from the command
