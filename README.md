@@ -13,7 +13,7 @@ To get started:
 Things to look at:
 
  - Trigger a build (from the force builder) using a script or from the command
-   line.
+   line. (Buttons currently pull from the default branch)
  - Obtain build operation information from the command line.
  - Post a notification on Slack (or similar).
 
