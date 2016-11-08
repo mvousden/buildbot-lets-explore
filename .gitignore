@@ -4,6 +4,8 @@
 *.pid
 *.sample
 *.sqlite
+*.sqlite-shm
+*.sqlite-wal
 worker/build
 worker/test
 master/gitpoller
