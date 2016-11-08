@@ -2,6 +2,7 @@
 *.log
 *.hostname
 *.pid
+*.sample
 *.sqlite
 worker/build
 worker/test
