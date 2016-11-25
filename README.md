@@ -1,9 +1,5 @@
 A quick foray into Buildbot, starting from the tutorial.
 
-This repository requires a submodule to function. Clone this repository using
-the `--recursive` flag to pull submodules as well (see
-https://git-scm.com/book/en/v2/Git-Tools-Submodules).
-
 To get started:
 
  - install the python packages listed in `requirements.txt`
